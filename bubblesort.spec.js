@@ -2,6 +2,7 @@
 //la parte de describe es la denominada suite, que recibe un nombre y callback (arrow function) o function normal
 describe("Bubble Sort", function () {
   //la parte de it es la denominada spec, que recibe un nombre(string)y callback (arrow function) o function normal
+  //es importante que el it sea bien descriptivo
     it("Maneja arreglos vacios", function () {
       expect(bubbleSort([])).toEqual([]);
     });
